@@ -17,7 +17,7 @@ public class Vehicle14DS {
 			
 			Vehicle14 myvehicle = new Vehicle14();
 			myvehicle.setVehicleId(1001);
-			myvehicle.setOwnerId(101);
+			myvehicle.setOwnerId(109);
 			myvehicle.setName("WagonR");
 			myvehicle.setPrice(500000);
 			

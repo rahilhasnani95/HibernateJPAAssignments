@@ -22,7 +22,7 @@ public static void main(String[] args) {
 
 			Query q = em.createNativeQuery("select sf_finddesignation(?1) from dual");
 			
-			q.setParameter(1,4 );
+			q.setParameter(1,2);
 			
 			String s =  (String) q.getSingleResult();
 		

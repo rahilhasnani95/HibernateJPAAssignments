@@ -11,6 +11,7 @@
         <class>com.wellsbank.singletable.LoanAccount</class>    
        
         <class>com.wellsbank.tableperclass.Account</class>
+        
 		<class>com.wellsbank.tableperclass.SavingsAccount</class> 
 		<class>com.wellsbank.tableperclass.LoanAccount</class>
 		
@@ -22,6 +23,7 @@
 		
 		<class>com.wellsbank.manytomany.JointAccountHolder</class>
 		<class>com.wellsbank.manytomany.Account_MtoM</class>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <!-- Configuring The Database Connection Details -->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
